@@ -36,3 +36,17 @@ section#likes article {
     
 } 
 /* allows section to wrap for phone users */ 
+
+/* DEMOS ======================== */
+
+section.demo div { /*the full stop indicates the "class"*/
+    display: flex; 
+    gap: 1rem; 
+    background-color: #6666;
+}
+
+section.demo div p {
+    font-size: 5rem;
+    background-color: hotpink;
+    padding: 1rem; 
+}
